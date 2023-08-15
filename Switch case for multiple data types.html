@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Switch case</title>
+	</head>
+	<body>
+		<script>
+			var a=[1,-7,'a',1.56];
+			for(var i=0;i<4;i++){
+				switch(typeof(a[i])){
+				case 'number':
+					if(Number.isInteger(a[i])){
+						if(a[i]<0){
+							a[i]=a[i]*-1;
+							console.log("Negative number after coverting in positive: "+a[i]);
+						}
+						else{
+							console.log("Square of positive number: "+(a[i]*a[i]));
+						}
+					}
+					else{
+						console.log("Float value after multiplying it by 10: "+(a[i]*10));
+					}
+					break;
+				case 'string':
+					console.log("Given string is: "+a[i]);
+					break;
+				default:
+					console.log("You entered wrong input");
+				}
+			}
+		</script>
+	</body>
+</html>
