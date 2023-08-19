@@ -1,0 +1,34 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>Inheritance</title>
+	</head>
+	<body>
+		<script>
+			class Grandfather{
+				firstname(){
+					console.log("Shankar");
+				}
+				lastname(){
+					console.log("Kangude");
+				}
+				DOB(){
+					console.log("12/3/1953");
+				}
+			}
+			class Father extends Grandfather{
+				name(){
+					console.log("Bhausaheb");
+				}
+				DOB(){
+					console.log("23/7/1975");
+				}
+			}
+			var obj=new Father();
+			obj.name();
+			obj.firstname();
+			obj.lastname();
+			obj.DOB();
+		</script>
+	</body>
+</html>
