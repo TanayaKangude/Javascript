@@ -1,0 +1,22 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>Separate digits</title>
+	</head>
+	<body>
+		<script>
+			function test(num){
+				let rem,a=[];
+				while(num>0){
+					rem=num%10;
+					a.push(rem);
+					num=parseInt(num/10);
+				}
+				for(let i=a.length-1;i>=0;i--)
+					console.log(a[i]);
+			}
+			var num=123432;
+			test(num);
+		</script>
+	</body>
+</html>

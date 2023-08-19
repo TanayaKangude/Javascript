@@ -1,0 +1,19 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>Separate digits(using toString)</title>
+	</head>
+	<body>
+		<script>
+			function test(num){
+				let a=[];
+				num=num.toString();
+				for(let i=0;i<num.length;i++)
+					a.push(num[i]);
+				console.log(a)
+			}
+			let num=123432;
+			test(num);
+		</script>
+	</body>
+</html>

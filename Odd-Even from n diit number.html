@@ -1,0 +1,24 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>Odd-Even from n diit number</title>
+	</head>
+	<body>
+		<script>
+			function test(num){
+				let odd=[],even=[];
+				num=num.toString();
+				for(let i=0;i<num.length;i++){
+					if(num[i]%2==0)
+						even.push(num[i]);
+					else
+						odd.push(num[i]);
+				}
+				console.log("Even digits: "+even);
+				console.log("Odd digits: "+odd);
+			}
+			let num=123432;
+			test(num);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recursion Program</title>
+	</head>
+	<body>
+		<script>
+			function recursion(a)
+			{
+				if(a>0){
+					console.log("Recursion is going on.....");
+					a--;
+					recursion(a);
+				}
+				else{
+					return;
+				}	
+			}
+			let a=5;
+			recursion(a);
+			console.log("recursion is stopped");
+		</script>
+	</body>
+</html>

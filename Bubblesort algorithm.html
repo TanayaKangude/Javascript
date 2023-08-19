@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bubble Sort</title>
+		<script>
+			var a=[87,45,90,23,78,21,1,94,556];
+			b=a.length;
+			for(i=0;i<b-1;i++)
+			{
+				for(j=0;j<b-i-1;j++)
+				{
+					if(a[j]<a[j+1])
+					{
+						let temp=a[j];
+						a[j]=a[j+1];
+						a[j+1]=temp;
+					}
+				}
+			}
+			for(i=0;i<b;i++)
+			{
+				console.log(a[i]);
+			}
+		</script>
+	</head>
+	<body>
+		<p>Bubble sort </p>
+	</body>
+</html>

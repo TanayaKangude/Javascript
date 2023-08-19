@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Palindrome Program (number)</title>
+</head>
+<body>
+	<script>
+		let val=prompt("Enter any number");
+		val=parseInt(val);
+		let rem,result=0,num=val;
+		while(val>0){
+			rem=val%10;
+			result=result*10+rem;
+			val=parseInt(val/10);
+		}
+		if(num==result)
+			console.log("Given number is palindrome");
+		else
+			console.log("Given number is not palindrome");
+	</script>
+</html>
