@@ -22,3 +22,6 @@
 20. Implement program to check if number is even or odd.
 21. Implement program to print characters in string at the index of odd number.
 22. Implement program for simple recursion function.
+23. Implement program to print prime numbers between 1 to n.
+24. Implement program to check if the number  is prime or not.
+25. Implement program to check if the number  is prime or not using function.
