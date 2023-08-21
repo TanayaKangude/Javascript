@@ -1,0 +1,27 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>Prime number using function</title>
+	</head>
+	<body>
+		<script>
+			function prime(num,count){
+				if(num==0||num==1)
+					return count=1;
+				else{
+					for(i=2;i<num;i++){
+						if(num%i==0){
+							return count=1;
+						}
+					}
+				}
+			}
+			var num=12,count=0;
+			result=prime(num,count);
+			if(result==0)
+				console.log("Given number is prime number");
+			else
+				console.log("Given number is not prime number");
+		</script>
+	</body>
+</html>
