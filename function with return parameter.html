@@ -1,0 +1,24 @@
+<!DOCTYPe html>
+<html>
+	<head>
+		<title>Function with return parameter</title>
+	</head>
+	<body>
+		<script>
+			function test(num){
+				for(let i=0;i<num.length;i++){
+					a=typeof(num[i]);
+					if(a=='string'){
+						return num[i];
+					}
+					else if(num[i]%2==0){
+						return num[i];
+					}
+				}
+			}
+			let num=[5,'k',1,3,'a','t',4,'p',8];
+			result=test(num);
+			console.log(result);
+		</script>
+	</body>
+</html>
