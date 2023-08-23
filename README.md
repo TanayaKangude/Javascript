@@ -26,3 +26,4 @@
 24. Implement program to check if the number  is prime or not.
 25. Implement program to check if the number  is prime or not using function.
 26. Implement program to return the value in function.
+27. Implement program to find the factorial of an element.
