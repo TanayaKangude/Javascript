@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Factorial Using Recursion</title>
+	</head>
+	<body>
+		<script>
+			function fact(n){
+				if(n==0){
+					return 1;
+				}
+				else{
+					return n*fact(n-1);
+				}
+			}
+			var n=prompt("Enter any Integer Number");
+			if(n>=0){
+				a=fact(n);
+			}
+			console.log(a);
+		</script>
+	</body>
+</html>
