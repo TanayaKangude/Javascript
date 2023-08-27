@@ -29,3 +29,4 @@
 27. Implement program to find the factorial of number.
 28. Implement program to find the factorial of number using recursion.
 29. Implement program to print fibonacci series.
+30. Implement program to print even number using for of.
