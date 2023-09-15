@@ -37,3 +37,5 @@
 35. Implement program using getElementsByClassName to access the elements from form.
 36. Implement simple program for exception handling using try and catch.
 37. Implement program to show the variable hosting in javascript.
+38. Implement program to Access form elements using setTimeout.
+39. Implement program to Access elements of one form using another form.
