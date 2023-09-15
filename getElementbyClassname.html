@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example of GetElementbyClassname</title>
+</head>
+<body>
+	<div class="demo">
+		<input type="text" id="fname" name="first_name" class="pass">
+		<input type="text" id="lname" name="last_name" class="pass">
+		<button onclick="test()">Submit</button>
+	</div>
+	<script>
+		function test(){
+			let emp = {};
+ 			let list = [];
+ 			//let parent=document.getElementById("id");
+			let Name=document.getElementsByClassName("demo");
+			console.log(Name);
+			let f_name=document.getElementsByClassName("pass")[0];
+			console.log(f_name);
+			let l_name=document.getElementsByClassName("pass")[1];
+			console.log(l_name);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document ready</title>
+	<style>
+		.demo {
+			border-color:blue;
+		}
+	</style>
+</head>
+<body class="demo">
+	<div>
+		First Name:<input type="text" name="first_name" id="firstName"><br><br>
+		Last Name:<input type="text" name="last_name" id="lastName"><br><br>
+		Address:<input type="text" name="Address" id="address">
+		<button onclick="test()">Submit</button>
+	</div>
+	<script $(document).ready(test());>
+		$(document).ready(test());
+			function test(){
+				let b=document.getElementsByClassName("demo")[0];
+				b.style.backgroundColor="#D3D3D3"
+			};
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try and Catch</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script>
+		let a=['a','b','c','d','e'],b;
+		let err="Data type is wrong";
+		try{
+			for(i of a){
+				
+				if(typeof(i)=='number')
+					b=i/2;
+					console.log(b);
+				throw err;
+			}
+		}
+		catch(err){
+			console.log(err);
+		}
+	</script>
+</body>
+</html>
