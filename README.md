@@ -32,3 +32,8 @@
 30. Implement program to print even number using for of.
 31. Implement program to demonstrate the example of setTimeout.
 32. Implement program to demonstrate the example of setInterval.
+33. Implement program to change the background color using document.ready().
+34. Implement program to demonstrate the lexical scope of function.
+35. Implement program using getElementsByClassName to access the elements from form.
+36. Implement simple program for exception handling using try and catch.
+37. Implement program to show the variable hosting in javascript.
