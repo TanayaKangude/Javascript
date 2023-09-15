@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment</title>
+	<style>
+		div {
+			padding-left:300px;
+			padding-top:50px;
+		}
+	</style>
+</head>
+<body>
+<div style="align:center">
+	<form>
+		First Name:<input type="text" name="first_name" id="firstName"><br><br>
+		Last Name:<input type="text" name="last_name" id="lastName"><br><br>
+		Address:<input type="text" name="Address" id="address">
+	</form>
+	
+</div>
+<script type="text/javascript">
+ setTimeout(function test() {
+ 	let emp = {};
+ 	let list = [];
+ 	let first_name = document.getElementById("firstName").value;
+ 	let last_name = document.getElementById("lastName").value;
+ 	let address = document.getElementById("address").value;
+ 	emp["first_name"] = first_name;
+ 	emp["last_name"] = last_name;
+ 	emp["address"] = address;
+ 	list.push(emp)
+ 	console.log(list);
+ },10000)
+</script>
+</body>
+</html>

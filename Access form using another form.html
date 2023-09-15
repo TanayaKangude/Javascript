@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.demo {
+			display:none;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form>
+			First Name:<input type="text" name="first_name" id="firstName"><br><br>
+			Last Name:<input type="text" name="last_name" id="lastName"><br><br>
+			Address:<input type="text" name="Address" id="address">
+			<button id="send">Submit</button>
+	</div>
+	<div class="demo" id="name">
+		Name:<input type="text",id="fullName" name="Full_name">
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+		$(document).on("click","#send",test(){
+			let a=document.getElementById("firstName");
+			a.style.borderColor="red";
+		})
+	</script>
+</body>
+</html>
